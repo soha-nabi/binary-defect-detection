@@ -69,12 +69,11 @@ python infer.py
 
 
 Outputs will be saved in:
-
-
+```
 outputs/
 ├── predictions.csv
 └── Grad-CAM visualization images
-
+```
 ---
 
 ## Output
