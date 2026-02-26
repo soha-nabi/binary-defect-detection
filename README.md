@@ -95,7 +95,7 @@ The inference pipeline:
 ---
 
 ## Project Structure
-
+```
 project/
 ├── train.py
 ├── infer.py
@@ -105,7 +105,7 @@ project/
 ├── report.pdf
 ├── test_images/
 └── outputs/
-
+```
 ## Summary
 
 This project demonstrates an end-to-end explainable defect detection pipeline using transfer learning and Grad-CAM.  
