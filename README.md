@@ -140,29 +140,15 @@ The inference pipeline:
 
 ## Project Structure
 
----
-
-## Output
-
-The inference pipeline:
-
-- Classifies each image as defect or non-defect
-- Saves predictions to a CSV file
-- Generates Grad-CAM overlays for explainability
-
----
-
-## Deployment Notes
-
-- Runs on CPU without requiring a GPU
-- Suitable for batch inspection scenarios
-- Lightweight and reproducible
-
----
-
-## Project Structure
-
----
+project/
+├── train.py
+├── infer.py
+├── gradcam.py
+├── model_binary.pth
+├── requirements.txt
+├── report.pdf
+├── test_images/
+└── outputs/
 
 ## Summary
 
